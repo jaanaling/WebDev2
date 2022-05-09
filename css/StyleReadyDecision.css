@@ -1,0 +1,98 @@
+.readyDecisionContent{
+    background: linear-gradient(to bottom, rgb(80, 79, 77) 2%, rgb(167 167 167) );
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.readyDecisionBox{
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: #38461229;
+    margin-bottom: 10rem;
+ 
+}
+.readyDecisionContent h1{
+  padding-top: 10rem;
+}
+.readyDecisionContent h1, h2{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#d3d0d0;
+    font-weight: 600;
+    font-size: 3vw;
+}
+.readyDecisionContent h3{
+    font-family:"Montserrat", Arial, sans-serif;
+    color:#d3d0d0;
+    font-weight: 600;
+    font-size: 2vw;
+}
+.readyDecisionContent p{
+    font-family:"Montserrat", Arial, sans-serif;
+    font-size:  1.5vw;
+    font-weight: 600;
+}
+
+.pricesBox{
+    display: flex;
+    justify-content: space-around;   
+}
+.priceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 0 0 2.25rem 0;
+    margin-bottom: 10rem;
+}
+.priceBox{
+    transition: 500ms;
+    border: 0.2rem solid rgb(221, 221, 220);
+    text-align: center;
+}
+.priceBox:hover{
+    border: 0.2rem solid #f7e817;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.11);
+}
+.imgPrice{
+    width: 90%;
+    height: 50%;
+
+}
+.priceList{
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    flex-direction: column;
+    height:  40%;
+}
+.priceList li{
+
+    font-family:"Montserrat", Arial, sans-serif;
+    font-size: 0.9vw;
+    font-weight: 600;
+    padding: 0 3rem 2rem 0;
+    text-align: center;
+}
+
+.butCost{
+    transition: 500ms;
+    width: 78%;
+    height: 4rem;
+    background-color: #f7e817;
+    font-weight: 600;
+    font-size:  1.5vw;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 0;
+    margin: 5% 0  0 0;
+}
+.butCost:hover{
+color:#ffffff;
+}
